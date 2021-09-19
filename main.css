@@ -1,1 +1,74 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  height: 100vh;
+  background: linear-gradient(130deg, #8052ec, #d161ff);
+}
+
+.container {
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+#newtask {
+  background-color: seashell;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+#newtask input {
+  width: 70%;
+  height: 45%;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+
+#newtask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: #8052ec;
+}
+
+#tasks {
+  background-color: seashell;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.task button {
+  background-color: #8052ec;
+  color: antiquewhite;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
